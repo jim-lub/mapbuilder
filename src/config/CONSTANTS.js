@@ -1,0 +1,6 @@
+export const CFG = {
+  MAP_ROWS: 20,
+  MAP_COLS: 30,
+  MAP_TILE_HEIGHT: 24,
+  MAP_TILE_WIDTH: 24
+}

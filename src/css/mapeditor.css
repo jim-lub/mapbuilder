@@ -1,0 +1,41 @@
+.mapeditor__container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: #101010;
+}
+
+.mapeditor__column__container {
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  width: 32px;
+}
+
+.mapeditor__tile__container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-bottom: 1px solid #1f1f1f;
+  border-right: 1px solid #1f1f1f;
+  color: #646464;
+  font-size: 8px;
+}
+
+.mapeditor__tile__btn {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
+}
+
+.swatch {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin: 1px;
+}

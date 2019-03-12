@@ -1,0 +1,45 @@
+.panel__header-container {
+  background-image: linear-gradient(to top, #1c1c1c, #212121);
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px solid #121212;
+}
+
+  .panel__header-title {
+    padding: 5px 8px;
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+.panel__tools-container {
+  background-color: #343434;
+  border: 1px solid #454545;
+  border-bottom: 1px solid #121212;
+}
+
+  .panel__tools-button {
+    float: left;
+    margin: 2px;
+    padding: 2px 4px;
+    background-image: linear-gradient(to top, #1c1c1c, #212121);
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 8px;
+    font-weight: bold;
+    color: #bdbdbd;
+  }
+
+.panel__content-container {
+  min-width: 100px;
+  padding: 5px;
+  background-color: #343434;
+  border: 1px solid #454545;
+}
+
+.layers__container {
+  border: 1px solid black;
+}
+
+.library__container {
+  border: 1px solid black;
+}
