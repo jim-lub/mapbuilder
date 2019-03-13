@@ -26,17 +26,26 @@ span {
 }
 
 
-.layers__wrapper {
+.toolstart__wrapper {
   position: absolute;
-  top: 25px;
-  left: 25px;
 }
 
-.mapview__wrapper {
+.layers__wrapper {
+  float: left;
+  margin: 5px;
+}
+
+.tools__wrapper {
+  float: left;
+  margin: 5px;
 }
 
 .library__wrapper {
-  position: absolute;
-  top: 105px;
-  left: 25px;
+  float: left;
+  margin: 5px;
+}
+
+.swatch__wrapper {
+  float: left;
+  margin: 5px;
 }

@@ -16,7 +16,9 @@ const CurrentSwatch = (props) => {
         <div className="panel__header-title">Current Swatch</div>
       </div>
       <div className="panel__content-container clearfix">
-        {<Swatch color="orange" />}
+        {<Swatch color={props.currentSwatch} />}
+        {<Swatch color={props.currentSwatch} />}
+        {<Swatch color={props.currentSwatch} />}
       </div>
     </div>
     </Draggable>
@@ -25,7 +27,7 @@ const CurrentSwatch = (props) => {
 
 const mapStateToProps = (state) => {
  return {
-
+   currentSwatch: state.swatches.currentSwatch
  }
 }
 

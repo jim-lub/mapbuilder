@@ -1,9 +1,13 @@
 import React from 'react';
 import { DragSource } from 'react-dnd';
 
-const Swatch = ({connectDragSource, color}) => {
+const Swatch = ({connectDragSource, color, onClick}) => {
   return connectDragSource(
-    <div className="swatch" style={{backgroundColor: color}}>
+    <div
+      className="swatch"
+      style={{backgroundColor: color}}
+      onClick={() => onClick(color)}
+    >
     </div>
   )
 };
